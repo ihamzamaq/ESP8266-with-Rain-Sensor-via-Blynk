@@ -1,15 +1,15 @@
 #define BLYNK_TEMPLATE_ID "TMPLgrzkvHG-"
 #define BLYNK_DEVICE_NAME "Rain Sensor"
-#define BLYNK_AUTH_TOKEN "PAj5vA7x1zt9oi7S2k0xnCOVFeyv9CbX"
+#define BLYNK_AUTH_TOKEN "" //Enter your Auth token
 
 #define BLYNK_PRINT Serial
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[] = BLYNK_AUTH_TOKEN;//Enter your Auth token
-char ssid[] = "Evo-4G";//Enter your WIFI name
-char pass[] = "sweethome1947";//Enter your WIFI password
+char auth[] = BLYNK_AUTH_TOKEN;
+char ssid[] = "";//Enter your WIFI name
+char pass[] = "";//Enter your WIFI password
 
 BlynkTimer timer;
 bool eventTrigger = false;
