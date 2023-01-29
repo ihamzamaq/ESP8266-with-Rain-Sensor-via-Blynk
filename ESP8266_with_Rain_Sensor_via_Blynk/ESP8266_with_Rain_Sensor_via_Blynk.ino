@@ -25,7 +25,7 @@ void moisture() {
   //{
    // eventTrigger = true;
     
-  //  Blynk.logEvent("Tanki is Full", "Gauge is greater than 30");
+  //  Blynk.logEvent("Tank is Full", "Gauge is greater than 30");
  // }
  // else
   //{
